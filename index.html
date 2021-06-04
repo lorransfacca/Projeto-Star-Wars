@@ -1,0 +1,253 @@
+<style>
+    body{
+    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+    background-size: 100%; 
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    color: yellow;
+    text-align: center;
+    font-size: 15px;
+}
+
+p2{
+    color:yellow;
+    text-align: center;
+    font-size: 25px;
+}
+
+div{
+    float: left;
+    margin: 40px;
+    text-align: center;
+}
+
+marquee{
+    color:yellow;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+img{
+    width:200px;
+    height:200px;
+}
+</style>
+<style>
+  
+    select
+    {
+        width:100%;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        border-radius: 8px;
+        border: 2px solid;
+        box-shadow: 0 15px 15px yellow;
+        appearance: none;
+        background: black no-repeat;
+        background-position: 95% 55%;
+        background-size: 22px;
+        text-align: center;
+        color:yellow;
+    }
+       
+    .content
+    {
+        margin: 30px 0;
+        font-family:Arial, Helvetica, sans-serif;
+        color:yellow;
+        font-size:14px;
+    }
+       
+    .content .data
+    {
+        padding: 25px 0;
+        background-color: black;
+        border: 2px solid yellow;
+        color:black;
+        border-radius: 8px;
+    }
+       
+    .content p
+    {
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid yellow;
+    }
+       
+    .content p:last-child
+    {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+       
+    .content p b
+    {
+        font-weight: 700;
+    }
+    
+    .content p span
+    {
+        float: center;
+        font-weight: normal;
+    }
+       
+    .data
+    {
+        display: none;
+    }
+  
+</style>
+
+<title>catalisa</title>
+
+<h1>SWAPI </h1><p>The Star Wars API</p>
+<h2>STAR WARS</h2>
+<center>
+<audio id="audio" autoplay controls loop>
+    <source src="audio/Star Wars Music.mp3" type="audio/mp3" />
+</audio>
+<audio id="audio" autoplay controls loop>
+    <source src="audio/Sabre-Laser Star Wars.mp3" type="audio/mp3" />
+</audio>
+</center>
+<marquee behavior="scroll" direction="up" opacity="0.1" scrollamount="2.5">
+    <font color="turquoise">A long time ago in a galaxy far,far away....</font>
+    <br/>
+    <br/>
+    os útimos jedi
+    <br/>
+    A PRIMEIRA ORDEM reina.
+    <br/>
+    tendo dizimado a pacífica
+    <br/>
+    República, o Líder Supremo Snoke
+    <br/>
+    agora envia suas implacáveis
+    <br/>
+    legiões para assumir militarmente
+    <br/>
+    o controle da galáxia.
+    <br/><br/>
+    Somente os guereiros da
+    <br/>
+    RESISTÊNCIA da General
+    <br/>
+    Leia Organa se colocam
+    <br/>
+    contra a tirania crescente,
+    <br/>
+    certos de que o Mestre Jedi
+    <br/>
+    Luke Skywalker vai retornar
+    <br/>
+    e devolver uma fagulha de
+    <br/>
+    esperencas à luta.
+    <br/>
+    <br/>
+    mas a restência foi exposta.
+    <br/>
+    enquanto a Primeira Ordem
+    <br/>
+    se direciona para a Base Rebelde
+    <br/>
+    os valentes heróis preparam
+    <br/>
+    uma fuga desesperada.
+</marquee>
+<center>
+    <div class="wrapper">
+        <div class="menu">
+            <select id="name">
+                <option value="lista">Personagens: </option>
+                <option value="luke">Luke Skywalker</option>
+                <option value="leia">Princess Leia</option>
+                <option value="darth">Darth Vader</option>
+                <option value="r2">R2-D2</option>
+                <option value="yoda">Mestre Yoda</option>
+            </select>
+        </div>
+
+        <div class="content">
+            <div id="luke" class="data">
+                <p class="image"><img src="https://i.pinimg.com/originals/ee/50/4e/ee504e8c7a7a3ac659ac968ac8eefc08.jpg" width="199.1px" height="198px">
+                <p><b>Name: </b><span>Luke Skywalker</span></p>
+                <p><b>Gender: </b><span>Male</span></p>
+                <p><b>Height: </b><span>172</span></p>
+                <p><b>Mass: </b><span>77</span></p>
+                <p><b>Hair_Color: </b><span>Blond</span></p>
+                <p><b>Skin_Color: </b><span>Fair</span></p>
+                <p><b>Eye_Color: </b><span>Blue</span></p>
+           </div>
+        </div>
+        <div class="content">
+            <div id="leia" class="data">
+                <p class="image"><img src="data:image/jpeg;base64,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" width="199.1px" height="198px">
+                <p><b>Name: </b><span>Princess Leia</span></p>
+                <p><b>Gender: </b><span>Female</span></p>
+                <p><b>Height: </b><span>150</span></p>
+                <p><b>Hair_Color: </b><span>Brown</span></p>
+                <p><b>Skin_Color: </b><span>Fair</span></p>
+                <p><b>Eye_Color: </b><span>Brown</span></p>
+           </div>
+        </div>
+        <div class="content">
+            <div id="darth" class="data">
+                <p class="image"><img src="https://sm.ign.com/ign_br/screenshot/default/darth-vader_5yvm.jpg" width="199.1px" height="198px">
+                    <p><b>Name: </b><span>Darth Vader</span></p>
+                    <p><b>Gender: </b><span>Male</span></p>
+                    <p><b>Height: </b><span>200</span></p>
+                    <p><b>mask_Color: </b></span>Black</p>
+                    <p><b>clothes_Color: </b><span>Black</span></p>
+           </div>
+        </div>
+        <div class="content">
+            <div id="r2" class="data">
+                <p class="image"><img src="https://vignette.wikia.nocookie.net/starwars/images/e/eb/ArtooTFA2-Fathead.png/revision/latest?cb=20161108040914" width="199.1px" height="198px">
+                    <p><b>Name: </b><span>R2-D2</span></p>
+                    <p><b>Height: </b><span>112</span></p>
+                    <p><b>Skin_Color: </b><span>white and blue</span></p>
+                    <p><b>Eye_Color: </b><span>Blue</span></p>   
+           </div>
+        </div>
+        <div class="content">
+            <div id="yoda" class="data">
+                <p class="image"><img src="https://network.grupoabril.com.br/wp-content/uploads/sites/4/2020/02/desafio-jedi-de-mestre-yoda-consertar-as-frases-consegue-vocecc82.jpg?quality=100&strip=info" width="199.1px" height="198px">
+                <p><b>Name: </b><span>Mestre Yoda</span></p>
+                <p><b>Gender: </b><span>alien</span></p>
+                <p><b>Height: </b><span>076</span></p>
+                <p><b>Hair_Color: </b><span>white</span></p>
+                <p><b>Skin_Color: </b><span>green</span></p>
+                <p><b>Eye_Color: </b><span>Brown</span></p>
+           </div>
+        </div> 
+    </div>
+</center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#name").on('change', function(){
+            $(".data").hide();
+            $("#" + $(this).val()).fadeIn(700);
+        }).change();
+    }); 
+</script>
+<body>        
